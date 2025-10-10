@@ -1,0 +1,45 @@
+.header {
+    font-family: 'Raleway', sans-serif;
+    color: #fffdfd;
+    display: flex;
+    background-color: #3c4600;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    width: 100vw;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    background-color: #cfff23;
+}
+
+h1 {
+    color: #443131;
+    margin-bottom: 20px;
+}
+
+.iframe-box {
+    margin: 20px auto; 
+    box-shadow: 0 4px 15px #0000004d;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+iframe {
+    border: 0;
+    width: 640px;
+    height: 360px;
+}
